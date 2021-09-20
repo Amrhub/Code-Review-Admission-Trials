@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    
+    <nav id="navbar">
+      <header>HTML&CSS Documentation</header>
+     <ul>
+       <li><a href="#HTML_Introduction" class="nav-link">HTML Introduction</a></li>  
+       <li><a href="#CSS_Introduction" class="nav-link">CSS Introduction</a></li>  
+       <li><a href="#HTML_document_type_declaration" class="nav-link">HTML document type declaration</a></li>  
+       <li><a href="#HTML_Application" class="nav-link">HTML Application</a></li>  
+       <li><a href="#CSS_Advantages" class="nav-link">CSS Advantages</a></li>  
+    </ul> 
+    </nav>
+
+    <main id="main-doc">
+      
+      <section class="main-section" id="HTML_Introduction">
+        <header>HTML Introduction</header>
+         <p>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+
+            Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+         </p>
+         <p>
+          HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as <code>&#60img /&#62</code> and <code>&#60input /&#62</code> directly introduce content into the page. Other tags such as <code>&#60p&#62</code> surround and provide information about document text and may include other tags as sub-elements and <code>&#60a&#62</code> to display a hyperlink. Browsers do not display the HTML tags, but use them to interpret the content of the page.
+         </p>
+        </section>
+
+      <section class="main-section" id="CSS_Introduction">
+        <header>CSS Introduction</header>
+        <p>
+          Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.[1] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.[2]</p>
+        <p>
+          CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.[3] This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file which reduces complexity and repetition in the structural content as well as enabling the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.
+        </p>
+      </section>
+    
+      <section class="main-section" id="HTML_document_type_declaration">
+        <header>HTML document type declaration</header>
+        <p>
+          HTML documents are required to start with a Document Type Declaration (informally, a "doctype"). In browsers, the doctype helps to define the rendering mode—particularly whether to use quirks mode.
+
+The original purpose of the doctype was to enable parsing and validation of HTML documents by SGML tools based on the Document Type Definition (DTD). The DTD to which the DOCTYPE refers contains a machine-readable grammar specifying the permitted and prohibited content for a document conforming to such a DTD. Browsers, on the other hand, do not implement HTML as an application of SGML and by consequence do not read the DTD.
+
+HTML5 does not define a DTD; therefore, in HTML5 the doctype declaration is simpler and shorter:[81]
+        </p>
+        <p>
+        <code> &#60!DOCTYPE html&#62 </code><br><br>
+        An example of an HTML 4 doctype<br>
+        <code> &#60!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"&#62 </code>
+        </p>
+      </section>
+
+      <section class="main-section" id="HTML_Application">
+        <header>HTML Application</header>
+        <p>An HTML Application (HTA; file extension ".hta") is a Microsoft Windows application that uses HTML and Dynamic HTML in a browser to provide the application's graphical interface. A regular HTML file is confined to the security model of the web browser's security, communicating only to web servers and manipulating only web page objects and site cookies. An HTA runs as a fully trusted application and therefore has more privileges, like creation/editing/removal of files and Windows Registry entries. Because they operate outside the browser's security model, HTAs cannot be executed via HTTP, but must be downloaded (just like an EXE file) and executed from local file system.</p>
+      </section>
+      
+      <section class="main-section" id="CSS_Advantages">
+        <header>CSS Advantages</header> 
+        <ul>
+          <li class="subheaders">Separation of content from presentation
+            <p>CSS facilitates publication of content in multiple presentation formats based on nominal parameters. Nominal parameters include explicit user preferences, different web browsers, the type of device being used to view the content (a desktop computer or mobile device), the geographic location of the user and many other variables.</p>
+          </li>
+          <li class="subheaders">Site-wide consistency
+            <p>When CSS is used effectively, in terms of inheritance and "cascading", a global style sheet can be used to affect and style elements site-wide. If the situation arises that the styling of the elements should be changed or adjusted, these changes can be made by editing rules in the global style sheet. Before CSS, this sort of maintenance was more difficult, expensive and time-consuming.</p>
+          </li>
+          <li class="subheaders">Bandwidth
+            <p>A stylesheet, internal or external, specifies the style once for a range of HTML elements selected by class, type or relationship to others. This is much more efficient than repeating style information inline for each occurrence of the element. An external stylesheet is usually stored in the browser cache, and can therefore be used on multiple pages without being reloaded, further reducing data transfer over a network</p>
+          </li>
+          <li class="subheaders">Page reformatting
+            <p>With a simple change of one line, a different style sheet can be used for the same page. This has advantages for accessibility, as well as providing the ability to tailor a page or site to different target devices. Furthermore, devices not able to understand the styling still display the content.</p>
+          </li>
+          <li class="subheaders">Accessibility
+            <p>Without CSS, web designers must typically lay out their pages with techniques such as HTML tables that hinder accessibility for vision-impaired users (see Tableless web design#Accessibility).
+            </p>
+          </li>
+          
+        </ul>
+      </section>
+
+      
+
+    </main>
+
+
+    <script  src="js/index.js"></script>
+  </body>
+</html>
